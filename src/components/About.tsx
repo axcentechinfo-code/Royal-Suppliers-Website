@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { Crown, Sparkles, MapPin, ShieldCheck, HeartHandshake, CheckCircle2 } from 'lucide-react';
+import { Crown, Sparkles, MapPin, ShieldCheck, HeartHandshake } from 'lucide-react';
 import { SITE_CONFIG } from '../data/siteData';
 
 // Animated Counter Hook / Component for fluid count-up
@@ -16,7 +16,6 @@ const AnimatedCounter: React.FC<{ target: number; suffix?: string; duration?: nu
   useEffect(() => {
     if (!isInView) return;
 
-    let start = 0;
     const startTime = performance.now();
 
     const updateCount = (currentTime: number) => {

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, MessageCircle, Phone, Sparkles } from 'lucide-react';
+import { Menu, X, MessageCircle, Phone } from 'lucide-react';
 import { SITE_CONFIG } from '../data/siteData';
 
 interface NavbarProps {

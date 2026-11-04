@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, MapPin, Instagram, Clock, ArrowUp, Mail, ShieldCheck } from 'lucide-react';
+import { Phone, MapPin, Instagram, Clock, ArrowUp } from 'lucide-react';
 import { SITE_CONFIG, CONTACT_PERSONS } from '../data/siteData';
 
 export const Footer: React.FC = () => {
